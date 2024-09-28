@@ -16,6 +16,12 @@ add_executable(FissionOpt
   OptOverhaulFission.cpp
   OverhaulFissionNet.h
   OverhaulFissionNet.cpp
+  NeotericFission.h
+  NeotericFission.cpp
+  OptNeotericFission.h
+  OptNeotericFission.cpp
+  NeotericFissionNet.h
+  NeotericFissionNet.cpp
 )
 
 target_include_directories(FissionOpt PRIVATE
