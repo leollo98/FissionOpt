@@ -27,6 +27,7 @@ jobs:
       uses: actions/upload-artifact@v3.2.1-node20
       with:
         path: FissionOpt.wasm
+        name: wasm
         if-no-files-found: error  
         retention-days: 1
 
