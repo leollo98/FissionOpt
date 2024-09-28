@@ -293,7 +293,7 @@ namespace Fission {
 				&&  countActiveNeighbors(Lapis, x, y, z);
             	break;
 			case Nether_Brick:
-				isActive(x, y, z) = countActiveNeighbors(Obsidian, x, y, z)
+				isActive(x, y, z) = countActiveNeighbors(Obsidian, x, y, z);
             	break;
 			case Lithium:
 				isActive(x, y, z) =
@@ -311,8 +311,7 @@ namespace Fission {
 				isActive(x, y, z) = countActiveNeighbors(Cell, x, y, z) >=2;
             	break;
 			case Lead:
-				isActive(x, y, z) = countActiveNeighbors(Iron, x, y, z)
-				&&  countActiveNeighbors(, x, y, z);
+				isActive(x, y, z) = countActiveNeighbors(Iron, x, y, z);
             	break;
 			case Boron:
 				isActive(x, y, z) = countActiveNeighbors(Quartz, x, y, z)
