@@ -29,3 +29,8 @@ jobs:
         path: FissionOpt.wasm
         if-no-files-found: error  
         retention-days: 1
+
+  Pages:
+    needs: build
+    uses: ./.github/workflows/github-pages.yml
+    secrets: inherit
