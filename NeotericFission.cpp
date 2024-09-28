@@ -1,5 +1,5 @@
 #include <xtensor/xview.hpp>
-#include "NeotericFision.h"
+#include "NeotericFission.h"
 
 namespace Fission {
   void Evaluation::compute(const Settings &settings) {
