@@ -1,7 +1,7 @@
 #ifndef _NEOTERIC_FISSION_NET_H_
 #define _NEOTERIC_FISSION_NET_H_
 #include <unordered_map>
-#include "OptFission.h"
+#include "OptNeotericFission.h"
 
 namespace NeotericFission {
   constexpr int nStatisticalFeatures(5), nLayer1(128), nLayer2(64), nMiniBatch(64), nEpoch(2), nPool(1'000'000);
