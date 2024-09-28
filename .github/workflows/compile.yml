@@ -23,3 +23,9 @@ jobs:
       run: git clone https://github.com/xtensor-stack/xtensor
     - name: compile
       run: bash compile.sh
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v3.2.1-node20
+      with:
+        path: FissionOpt.wasm
+        if-no-files-found: error  
+        retention-days: 1
