@@ -19,7 +19,7 @@ jobs:
         version: latest
     - name: clone xtl
       run: git clone https://github.com/xtensor-stack/xtl
-    - name: clone
+    - name: clone xtensor
       run: git clone https://github.com/xtensor-stack/xtensor
     - name: compile
       run: bash compile.sh
