@@ -4,7 +4,7 @@
 #include <memory>
 #include "NeotericFission.h"
 
-namespace Fission {
+namespace NeotericFission {
   struct Sample {
     int limit[Air];
     xt::xtensor<int, 3> state;

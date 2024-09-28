@@ -1,7 +1,7 @@
 #include <xtensor/xrandom.hpp>
 #include "NeotericFissionNet.h"
 
-namespace Fission {
+namespace NeotericFission {
   Net::Net(Opt &opt) :opt(opt), mCorrector(1), rCorrector(1), trajectoryLength(), writePos() {
     for (int i{}; i < Air; ++i)
       if (opt.settings.limit[i])

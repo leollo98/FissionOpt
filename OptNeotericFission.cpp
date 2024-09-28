@@ -1,7 +1,7 @@
 #include <xtensor/xview.hpp>
 #include "NeotericFissionNet.h"
 
-namespace Fission {
+namespace NeotericFission {
   void Opt::restart() {
     std::shuffle(allowedCoords.begin(), allowedCoords.end(), rng);
     std::copy(settings.limit, settings.limit + Air, parent.limit);

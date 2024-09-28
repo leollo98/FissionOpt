@@ -1,7 +1,7 @@
 #include <xtensor/xview.hpp>
 #include "NeotericFission.h"
 
-namespace Fission {
+namespace NeotericFission {
   void Evaluation::compute(const Settings &settings) {
     heat = settings.fuelBaseHeat * heatMult;
     netHeat = heat - cooling;

@@ -3,7 +3,7 @@
 #include <xtensor/xtensor.hpp>
 #include <string>
 
-namespace Fission {
+namespace NeotericFission {
   using Coords = std::vector<std::tuple<int, int, int>>;
 
   constexpr int neutronReach(4);
