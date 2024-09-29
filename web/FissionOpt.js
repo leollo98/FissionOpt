@@ -546,7 +546,7 @@ var FissionOpt = (function() {
           function isFileURI(filename) {
               return hasPrefix(filename, fileURIPrefix)
           }
-          var wasmBinaryFile = "FissionOpt.wasm";
+          var wasmBinaryFile = "FissionOpt/FissionOpt.wasm";
           if (!isDataURI(wasmBinaryFile)) {
               wasmBinaryFile = locateFile(wasmBinaryFile)
           }
